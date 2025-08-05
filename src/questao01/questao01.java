@@ -1,6 +1,6 @@
 package questao01;
-
 import java.util.Scanner;
+
 public class questao01 {
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
@@ -17,6 +17,7 @@ public class questao01 {
             System.out.println("O maior número é "+ numero);
 
         }
+        scanner.close();
 
         }
 
